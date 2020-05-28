@@ -1,2 +1,22 @@
 
 /*  Put your CSS Here */
+body{
+    background-color: black;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.botton{
+    background-color: rgb(15, 163, 15);
+    border-radius: 15%;
+}
+
+
+body, input{
+    color: white;
+
+}
