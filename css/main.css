@@ -9,25 +9,15 @@
     box-sizing: 0;
 }
 
-body{
 
-}
-
-h1{
-
-}
-footer{
-
-}
 /* Block Styles */
 
 
 
 
 /* Desktop  styles here (widths bigger than 550px */
-@media(min-width 550px){
+@media(min-width 550px){}
 /* base */
 /* layouy */
 /* block */
 
-}
