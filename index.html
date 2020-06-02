@@ -22,44 +22,40 @@
 </head>
 
 <body>
-    <h1>Registratiion Info</h1>
+<div class="form_wrapper">
+            
+    <div class="form">
+            <img class="logo"src="./images/bg-heading-03.jpg" alt="">
+<form action="">
+            <h1>Registration Info</h1>
+                <div class="field">
+            <label for="name"></label>
+            <input type="text" placeholder="Name" name="name" id="name" required>
+    </div>
 
-    <form action="">
-<label for="Name">Name</label>
-<div class="fields">
-<input type="text" name="name" id="name">
-<hr>
-<label for="birthday">mm/dd/yyyy</label>
+    <div class="field">
+        <label for="date"></label>
+        <input type="date" name="date" id="date" required> 
+
+    </div class="field"> 
+    <div>
+    <label for="experience">Experinece</label>
+    <select name="experience" id="" disabled="disabled">
+    <option value="Option 1"></option>
+</select>
+</div> 
+<div class=field>
+
+    <label for="">Email</label>
+    <input type="email" name="email" id="email" required>
 </div>
 
-<div class="fields">
-<input date="number" name="birthday" id="birthday">
-
-<label for="experience">Experience</label>
+<div>
+    <label for="phone">Phone Number</label>
+    <input type="tel"placeholder=(Optional) number optional>
 </div>
-
-<div class="fields">
-<input type="checkbox" name="list" id="list">
-
-<label for="email">Email</label>
 </div>
-
-<div class="fields">
-<input type="email" name="email" id="email">
-
-<label for="phone">Phone (Optional)</label>
-</div>
-
-
-<div class="fields">
-<input type="number" name="phonenum" id="phone">
-</div>
-
-<input type="submit" value="Submit" class="button"> 
-
-
 </form>
-
     <!-- Your html here -->
 </body>
 
